@@ -1,0 +1,110 @@
+/* I will admit the CSS is all over the place I just did it as I went top to bottom */
+
+body {
+    background-image: url(../images/background.png);
+}
+.nav li {
+    display: inline-block;
+}
+
+.top {
+    margin: 0 auto;
+    height: 130px;
+}
+
+.mt-4 {
+    margin-top: 25px;
+}
+
+.mt-8 {
+    margin-top: 50px;
+}
+
+.jumbotron {
+    padding: 0;
+    margin: 0 auto;
+}
+
+.text-dark {
+    color: rgba(0, 0, 0, 0.747);
+    font-weight: 600;
+}
+
+.container-fluid {
+    max-width: 100%;
+    background: #A0C63F;
+}
+
+.round {
+    border-radius: 50%;
+    border: white solid 15px;
+    box-shadow: 1px 1px 4px 1px #8888;
+
+}
+
+.nav-item {
+    padding-left: 25px;
+}
+
+.center {
+    text-align: center;
+}
+
+.color {
+    color: #A0C63F;
+    padding-left: 10px;
+}
+
+h3 {
+    display: block;
+    font-size: 1.25rem;
+}
+
+.colorpeach {
+    color: rgb(248, 243, 238);
+}
+
+button {
+    color: white;
+    background: #A0C63F;
+}
+
+p {
+    margin-top: 10px;
+    font-size: .75rem;
+}
+
+.bb {
+    border-bottom: solid 2px rgb(248, 243, 238);
+}
+
+.pink-dot {
+    color: peachpuff;
+    margin: 0;
+}
+
+h5 {
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.form-control {
+    background: rgb(248, 243, 238);
+    border-bottom: solid 2px peachpuff;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+::-webkit-input-placeholder {
+    font-style: italic;
+}
+:-moz-placeholder {
+font-style: italic;  
+}
+::-moz-placeholder {
+font-style: italic;  
+}
+:-ms-input-placeholder {  
+font-style: italic; 
+}
